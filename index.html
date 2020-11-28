@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Todo App</h1>
+      <form id="myForm" class="form-group">
+        <input id="inputFields" class="form-control mb-2" type="text" placeholder="Type your task here..." autocomplete="off" autofocus/>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id="clearList" class="btn btn-secondary">Clear List</button>
+      </form>
+      <div id="noTask" class="card">
+         <p class="card-header">No Task</p>
+      </div>
+      <ul id="myLists" class="list-group"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
